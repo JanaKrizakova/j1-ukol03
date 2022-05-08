@@ -1,5 +1,10 @@
 package cz.czechitas.ukol3;
 
+import cz.czechitas.ukol3.model.Disk;
+import cz.czechitas.ukol3.model.Pamet;
+import cz.czechitas.ukol3.model.Pocitac;
+import cz.czechitas.ukol3.model.Procesor;
+
 public class HlavniProgram {
 
     public static void main(String... args) {
@@ -30,8 +35,14 @@ public class HlavniProgram {
 
         janinNotebook.zapniSe();
         janinNotebook.zapniSe();
+
+        janinNotebook.vytvorSouborOVelikosti(8_014_235_001L);
         System.out.println(janinNotebook.toString());
+
+        janinNotebook.vymazSouboryOVelikosti(4_000_154_001L);
+
         janinNotebook.vypniSe();
+        janinNotebook.vymazSouboryOVelikosti(1_000_000_000L);
 
         janinNotebook.vypniSe();
         janinNotebook.vypniSe();

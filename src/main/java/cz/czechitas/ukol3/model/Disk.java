@@ -1,11 +1,11 @@
-package cz.czechitas.ukol3;
+package cz.czechitas.ukol3.model;
 
 public class Disk {
 
     private long kapacitaDisk;
     private long vyuziteMisto;
 
-    public long getKapacitaDisk() {
+    public long getKapacita() {
         return kapacitaDisk;
     }
 
