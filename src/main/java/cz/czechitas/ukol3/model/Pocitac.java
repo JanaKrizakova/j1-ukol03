@@ -2,10 +2,10 @@ package cz.czechitas.ukol3.model;
 
 public class Pocitac {
 
-    boolean jeZapnuty;
-    Procesor cpu;
-    Pamet ram;
-    Disk pevnyDisk;
+    private boolean jeZapnuty;
+    private Procesor cpu;
+    private Pamet ram;
+    private Disk pevnyDisk;
 
     public String toString() {
         String result;
